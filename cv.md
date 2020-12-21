@@ -16,12 +16,12 @@
 5.__Code examples:__
 
     function walkTree(node) {
-               if (node == null) 
-                return;
-            
-               for (var i = 0; i < node.childNodes.length; i++) {
-                walkTree(node.childNodes[i]);
-               }
+      if (node == null) 
+       return;
+   
+      for (var i = 0; i < node.childNodes.length; i++) {
+       walkTree(node.childNodes[i]);
+      }
     }
     
 6.__Experience:__
